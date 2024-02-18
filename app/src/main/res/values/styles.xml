@@ -3,7 +3,7 @@
     <style name="AppTheme.V21" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/jellyfin_primary</item>
         <item name="colorPrimaryDark">@color/jellyfin_primary_dark</item>
-        <item name="colorAccent">@color/jellyfin_accent</item>
+        <item name="colorAccent">@color/theme_background</item>
         <item name="android:windowBackground">@color/theme_background</item>
         <item name="android:navigationBarColor">@color/theme_background</item>
     </style>
