@@ -20,5 +20,5 @@
         path="org.jellyfin.mobile_preferences" />
     <include
         domain="sharedpref"
-        path="org.jellyfin.mobile.debug_preferences" />
+        path="org.jellyfin.mobilec.debug_preferences" />
 </full-backup-content>

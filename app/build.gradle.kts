@@ -21,7 +21,7 @@ detekt {
 }
 
 android {
-    namespace = "org.jellyfin.mobile"
+    namespace = "org.jellyfin.mobilec"
     compileSdk = 34
 
     defaultConfig {

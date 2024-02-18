@@ -6,16 +6,16 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Keep names of all Jellyfin classes
--keepnames class org.jellyfin.mobile.**.* { *; }
--keepnames interface org.jellyfin.mobile.**.* { *; }
+-keepnames class org.jellyfin.mobilec.**.* { *; }
+-keepnames interface org.jellyfin.mobilec.**.* { *; }
 
 # Keep WebView JS interfaces
--keepclassmembers class org.jellyfin.mobile.bridge.* {
+-keepclassmembers class org.jellyfin.mobilec.bridge.* {
     @android.webkit.JavascriptInterface public *;
 }
 
 # Keep Chromecast methods
--keepclassmembers class org.jellyfin.mobile.player.cast.Chromecast {
+-keepclassmembers class org.jellyfin.mobilec.player.cast.Chromecast {
     public *;
 }
 
